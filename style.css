@@ -1,0 +1,153 @@
+* {
+    align-items: center;
+}
+body {background-color: rgb(255, 255, 255);}
+.header1 {
+    background-image: url(img/wp5809590.png);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    box-sizing: content-box;
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 50px;
+    margin-left: -10px;
+    margin-top: -10px;
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    z-index: 100;
+}
+
+.logoImage {
+    width: 60px; height: 60px;
+    position: fixed;
+    margin-top: -30px;
+    margin-left: -15px;
+    z-index: 1000;
+}
+.main_image-grid {
+    display: grid;
+    max-width: 100%;
+    min-width: 100%;
+    grid-template-columns: repeat(2, 1000px);
+    max-width: 100%;
+    margin-left: -50px;
+    position: absolute, center;
+}
+.main-image {
+    margin-top: -60px;
+    align-items: center;
+    max-width: 100%;
+    min-width: 100%;
+}
+.car-image {
+    max-width: 100%;
+    min-width: 100%;
+    height: 1027px;
+}
+.car-image2 {
+    max-width: 100%;
+    min-width: 100%;
+    height: 1027px;
+
+}
+.shadow-image {
+    min-width: 100%; max-width: 100%;
+    height: 750px;
+    box-sizing: content-box;
+    padding: 72px;
+    background-position: center;
+    background-color: rgb(0, 0, 0);
+    margin-top: 70px;
+    position: absolute;
+    opacity: 60%;
+    z-index: 5;
+}
+.image-description {
+    position: absolute;
+    color: rgb(177, 168, 116);
+    z-index: 10;
+    font-size: 50px;
+    padding: 200px;
+    margin-top: 50px;
+    margin-left: -100px;
+    font-family: system-ui;
+    font-weight: lighter;
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+    text-shadow: 0 4px 8px rgba(78, 72, 54, 0.8);
+}
+.image-text {
+    position: absolute;
+    color: rgb(199, 190, 139) ;
+    z-index: 1000;
+    padding: 200px;
+    margin-top: 150px;
+    margin-left: -100px;
+    font-size: x-large;
+    font-family: system-ui;
+    text-shadow: 0 4px 8px rgba(78, 72, 54, 0.8);
+    font-weight: lighter;
+}
+.buttons-template {
+    display: grid;
+    grid-template-columns: repeat(5, 130px);
+    margin-top: -15px;
+    position: absolute;
+    z-index: 1000;
+    color:rgb(194, 184, 136);
+    margin-left: 140px;
+    font-size: x-large;
+    font-family: system-ui;
+    font-weight: lighter;
+}
+.buttons {
+    cursor: pointer;
+    text-decoration: underline 1px;
+    text-decoration-color: transparent;
+    text-underline-offset: 38px;
+    
+}
+.buttons:hover {
+    text-shadow: 0 4px 8px rgba(212, 196, 146, 0.8);
+    text-decoration-color: rgba(212, 196, 146, 0.8) ;
+}
+.button-header1 {
+    position: absolute;
+    background-color: transparent;
+    z-index: 1000;
+    margin-left: 1700px;
+    padding: 10px;
+    width: 110px;
+    top: 30px;
+    border-color: rgba(212, 196, 146, 0.8);
+    color: rgba(212, 196, 146, 0.8);
+    font-size: large; font-weight: lighter;
+    font-family: system-ui;
+    border: 1px solid;
+}
+.button-header1:hover {
+    text-shadow: 0 4px 8px rgba(212, 196, 146, 0.6);
+    box-shadow: 0 4px 8px rgba(212, 196, 146, 0.4);
+}
+.section_image-grid {
+    background-color: white;
+}
+.image-car {
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -4px;
+    width: 800px;
+    height: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.section-text {
+    position: absolute;
+    width: 500px;
+    font-size: 100px;
+    margin-top: 35px;
+    font-family: system-ui;
+    color: rgb(34, 34, 34);
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
